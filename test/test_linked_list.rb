@@ -85,6 +85,7 @@ class LinkedListTest < MiniTest::Unit::TestCase
     ll.push("bar")
     ll.push("grille")
     assert_equal("grille", ll.last)
+
   end
 
   def test_09a_to_s_an_empty_linked_list

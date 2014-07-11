@@ -8,9 +8,9 @@ class LinkedListItem
     @payload = value
   end
 
-  def next_item=(other_item)
-    raise ArgumentError if other_item == self
-    @next_item = other_item
+  def next_item=(item)
+    raise ArgumentError if item === self
+    @next_item = item
   end
 
   def last?
