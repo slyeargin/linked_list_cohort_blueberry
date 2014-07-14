@@ -68,7 +68,7 @@ class LinkedList
     result = "|"
     current_item = @first_item
     until current_item.nil?
-      result << " " + current_item.payload
+      result << " #{current_item.payload}"
       unless current_item.last?
         result << ","
       end
