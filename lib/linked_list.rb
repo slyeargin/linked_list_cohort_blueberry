@@ -130,7 +130,6 @@ class LinkedList
 
   private
 
-
   def last_item
     current_item = @first_item
     until current_item.last?
