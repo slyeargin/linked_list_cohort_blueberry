@@ -31,5 +31,4 @@ class LinkedListItem
   def ===(item)
     self.equal? item
   end
-
 end
